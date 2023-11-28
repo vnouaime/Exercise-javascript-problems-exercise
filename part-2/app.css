@@ -1,0 +1,30 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+#draw_card_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+  
+
+.card {
+    position: absolute; 
+    margin: auto;
+    text-align: center;
+}
